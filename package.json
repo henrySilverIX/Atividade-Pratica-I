@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/henrySilverIX/Atividade-Pratica-I/issues"
   },
-  "homepage": "https://github.com/henrySilverIX/Atividade-Pratica-I#readme"
+  "homepage": "https://github.com/henrySilverIX/Atividade-Pratica-I#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
+  }
 }
