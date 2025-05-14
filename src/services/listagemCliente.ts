@@ -10,14 +10,18 @@ export default class ListagemClientes extends Listagem{
     }
 
     public listar(): void {
+        console.log("Clientes:")
         this.clientes.forEach((item) => {
             console.log(
-       `Clientes:
-Nome: ${item.nome}
+       `Nome: ${item.nome}
 Nome Social: ${item.nomeSocial}
-CPF: 
-  Número: ${item.getCPF.getValor}
-  Data de Emissão: ${item.getCPF.getDataEmissao}
+Gênero: ${item.genero}
+CPF:
+Número: ${item.getCPF.getValor}
+Data de Emissão: ${item.getCPF.getDataEmissao}
+RG:
+Número: ${item.getRGs[0].getValor}
+Data de Emissão: ${item.getRGs[0].getDataEmissao}
 --------------------------------------------------------------------\n`);
         })
     }
