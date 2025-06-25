@@ -21,6 +21,10 @@ export default class Cliente{
         this.genero = gender;
         this.cpf = cpf;
         this.rgs = rg;
+        this.dataCadastro = new Date();
+        this.telefones = [];
+        this.produtosConsumidos = [];
+        this.servicosConsumidos = [];
     }
 
     public get getCPF():CPF{

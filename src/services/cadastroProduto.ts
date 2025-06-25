@@ -22,7 +22,5 @@ export default class CadastroProduto extends Cadastro{
 
         this.produtos.push(produto);
         console.log("Cadastro Concluído");
-
-
     }
 }

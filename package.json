@@ -21,7 +21,7 @@
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.18",
+    "@types/node": "^22.15.33",
     "@types/prompt-sync": "^4.2.3"
   }
 }
